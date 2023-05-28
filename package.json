@@ -1,0 +1,22 @@
+{
+  "name": "quick-chat-backend",
+  "version": "1.0.0",
+  "description": "A backend service for providing real time chat features",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "srirang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
