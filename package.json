@@ -13,6 +13,7 @@
   "author": "srirang",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.15.2",
     "socket.io": "^4.6.1"
   },
